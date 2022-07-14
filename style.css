@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    background-color: rgb(106, 215, 215);
+    /* background: none; */
+}
+
+#navbar {
+    font-family: 'Fredoka', sans-serif;
+    position: relative;
+    top: 0px;
+    display:flex;
+    align-items: center;
+    position: sticky;
+}
+
+.logo {
+    margin: 34px 45px;
+    margin: 0px 0px;
+    padding: 0px;
+    align-items: center;
+
+}
+
+.logo img {
+    height: 56px;
+    margin: 0px 0px;
+    padding: 0px;
+    /* border: 2px solid blue; */
+    border-radius: 24px;
+}
+
+#navbar ul {
+    display: flex;
+
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3 rem;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+
+}
+
+/* .navbar container button{
+    float: right;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+
+} */
+#navbar::before {
+    content: " ";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 4;
+
+}
+
+#navbar ul li a:hover {
+    color: rgb(220, 235, 20);
+    background-color: rgb(9, 206, 206);
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 365px;
+    background-image: url(31191.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+#home::before {
+    content: " ";
+    position: absolute;
+    background-image: url('/177384.jpg');
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0%;
+    opacity: 0.89;
+}
+
+/* //utility classes */
+.h-primary {
+    text-align: center;
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+.h-secondry {
+    font-size: .8rem;
+    padding: 12px;
+
+}
+
+.center {
+    text-align: center;
+}
+
+#home h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Redressed', cursive;
+    color: rgb(15, 15, 15);
+    /* text-align: center; */
+}
+
+#home p {
+    font-family: 'Fredoka', sans-serif;
+    color: rgb(20, 20, 20);
+    text-align: center;
+    text-size-adjust: 1.25rem;
+    padding-bottom: 23px;
+}
+
+#home p1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn {
+    padding: 2px;
+    border: .5px solid rgb(9, 158, 138);
+    background-color: brown;
+    color: aliceblue;
+    margin: -5px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: aqua;
+    color: blueviolet;
+    /* size: 150px; */
+}
+
+#beautiful {
+    margin: 34px;
+    display: fles;
+    /* background: green; */
+
+}
+
+.box {
+    font-family: 'Fredoka', sans-serif;
+    border: 2px solid brown;
+    display: inline-block;
+    width: 458px;
+    border-radius: 23px;
+    background-color: rgb(227, 250, 250);
+    margin: 1px;
+    padding: 4px;
+}
+
+.box img {
+    height: 200px;
+    display: block;
+    margin: auto;
+    padding: 2px;
+
+}
+
+/* #client-section {
+    justify-content: center;
+    align-items: center;
+    color: rgb(88, 16, 16);
+    padding: 2px;
+    margin: 2px;
+    font-family: 'Fredoka', sans-serif;
+    ;
+} */
+
+/* #client-section::before {
+    content: " ";
+    position: absolute;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 67%; */
+    /* background-image: url('/maxresdefault.jpg'); */
+    /* opacity: 0.4; */
+    /* z-index: -1;
+    font-family: 'Fredoka', sans-serif;
+
+} */
+#about{
+    margin: 10%;
+    /* padding: 45px; */
+    background:url('177384.jpg') no-repeat center center fixed ;
+    background-size: cover;
+    color: white;
+}
+
+#contact {
+    background: url(cnt.jpg) no-repeat center center fixed;
+    /* background-color: purple; */
+    background-size: cover;
+}
+
+#contact-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+    margin: 34px;
+
+}
+
+#contact-box input,
+#contact-box textarea {
+    border-radius: 9px;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+    width: 100%;
+
+}
+
+#contact-box form {
+    width: 40%;
+}
+
+#contact-box label {
+    font-size: 1.3rem;
+}
+
+/* #contact-box .btn{
+    padding: 12px;
+    width: 72px;
+    background-color: brown;
+    color: green;
+    float: left;
+    display: flex;
+    align-items: center;
+} */
+#contact::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.7%;
+    background: url('/cnt.jpg');
+    background-repeat: no-repeat;
+
+}
+
+footer {
+    background-color: black;
+    padding: 9px 20px;
+    color: aliceblue;
+    text-align: center;
+}
+.bnt{
+    touch-action: pinch-zoom;
+    cursor: pointer;
+
+}
